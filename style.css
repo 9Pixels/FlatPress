@@ -9,7 +9,7 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
-Text Domain: flat-press
+Text Domain: flatpress
 */
 body {
 	position: relative;
@@ -27,7 +27,6 @@ body {
 }
 
 #secondary {
-	/*display: none;*/
 	position: absolute;
 	top: 0;
 	z-index: 9999;
@@ -36,6 +35,20 @@ body {
 	-webkit-box-shadow: 6px 0px 20px 0px rgba(0,0,0,0.38);
 	-moz-box-shadow: 6px 0px 20px 0px rgba(0,0,0,0.38);
 	box-shadow: 6px 0px 20px 0px rgba(0,0,0,0.38);
+	word-wrap: break-word;
+}
+
+#secondary,
+#secondary.active {
+	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	-o-transition: all 0.3s;
+  	-ms-transition: all 0.3s;
+  	transition: all 0.3s;
+}
+
+#secondary.active {
+	left: 0;
 }
 
 #new_header {
