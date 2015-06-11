@@ -1,6 +1,8 @@
 <?php
 /**
- * The template for displaying the footer
+ *	The template for displaying Header.
+ *
+ *	@package flatpress
  */
 ?>
 			<?php if ( apply_filters( 'show_flat_credits', true ) ) : ?>

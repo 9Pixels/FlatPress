@@ -1,3 +1,10 @@
+<?php
+/**
+ *	The template for dispalying Footer.
+ *
+ *	@package flatpress
+ */
+?>
 <?php flat_hook_html_before(); ?>
 <html <?php language_attributes(); ?>>
 <head>
