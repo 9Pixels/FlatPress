@@ -21,9 +21,14 @@ define( 'GET_CHILDTHEME_DIRECTORY_URI', get_stylesheet_directory_uri() );
 if( !function_exists( 'flatpress_enqueue_styles' ) ) {
 	add_action( 'wp_enqueue_scripts', 'flatpress_enqueue_styles' );
 	function flatpress_enqueue_styles() {
-		wp_enqueue_style( 'font-family-roboto', 'http://fonts.googleapis.com/css?family=Roboto:200,300,400,700,600,400italic,700italic,300italic');
-		wp_enqueue_style( 'font-family-roboto-slab', 'http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' );
+
+		$query_args = array(
+			'family'	=> 'Roboto:200,300,400,700,600,400italic,700italic,300italic|Roboto+Slab:400,100,300,700'
+		);
+		wp_register_style( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
+
 	    wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
+	    wp_enqueue_style( 'google_fonts' );
 	}
 }
 
