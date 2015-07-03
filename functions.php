@@ -11,11 +11,6 @@ if( !function_exists( 'flatpress_theme_setup' ) ) {
 }
 
 /**
- *	Define
- */
-define( 'GET_CHILDTHEME_DIRECTORY_URI', get_stylesheet_directory_uri() );
-
-/**
  *	Enqueue Styles
  */
 if( !function_exists( 'flatpress_enqueue_styles' ) ) {
@@ -38,6 +33,6 @@ if( !function_exists( 'flatpress_enqueue_styles' ) ) {
 if( !function_exists( 'flatpress_enqueue_scripts' ) ) {
 	add_action( 'wp_enqueue_scripts', 'flatpress_enqueue_scripts' );
 	function flatpress_enqueue_scripts() {
-		wp_enqueue_script( 'scripts', GET_CHILDTHEME_DIRECTORY_URI . '/js/scripts.js', array( 'jquery' ), '1.0', true );
+		wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), '1.0', true );
 	}
 }
