@@ -1,4 +1,3 @@
-License URI: license.txt
+# [FlatPress] (http://www.9pixels.co/clients/flatpress)
 
-Font Family (Roboto): https://www.google.com/fonts/specimen/Roboto
-Font Family (Roboto Slab): https://www.google.com/fonts/specimen/Roboto+Slab
+FlatPress is a clean and colorfull blog theme based on Flat theme. Perfect for a personal blog.
