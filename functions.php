@@ -22,7 +22,7 @@ if( !function_exists( 'flatpress_enqueue_styles' ) ) {
 		);
 		wp_register_style( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
 
-	    wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
+	    wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', array(), '1.0.3', 'all' );
 	    wp_enqueue_style( 'google_fonts' );
 	}
 }
@@ -33,6 +33,6 @@ if( !function_exists( 'flatpress_enqueue_styles' ) ) {
 if( !function_exists( 'flatpress_enqueue_scripts' ) ) {
 	add_action( 'wp_enqueue_scripts', 'flatpress_enqueue_scripts' );
 	function flatpress_enqueue_scripts() {
-		wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), '1.0', true );
+		wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), '1.0.3', true );
 	}
 }

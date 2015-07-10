@@ -15,14 +15,17 @@
 
 ## License:
 
-FlatPress WordPress Child Theme is a child of [Flat WordPress Theme] (https://themeisle.com/themes/flat/), licensed under GPL v3 or later.
+FlatPress WordPress Child Theme, Copyright (C) 2015, by [9Pixels] (http://www.9pixels.co).
+Flatpress is distributed under the terms of the GNU GPL.
 
 __Font Family Roboto:__
+
 - URI: https://www.google.com/fonts/specimen/Roboto
 - Copyright (C) Christian Robertson (https://plus.google.com/110879635926653430880/about)
 - License: Apache License, version 2.0
 
 __Font Family Roboto Slab:__
+
 - URI: https://www.google.com/fonts/specimen/Roboto+Slab
 - Copyright (C) Christian Robertson (https://plus.google.com/110879635926653430880/about)
 - License: Apache License, version 2.0
