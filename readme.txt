@@ -26,3 +26,8 @@ Font Family Roboto Slab:
 - URI: https://www.google.com/fonts/specimen/Roboto+Slab
 - Copyright (C) Christian Robertson (https://plus.google.com/110879635926653430880/about)
 - License: Apache License, version 2.0
+
+Screenshot Image:
+- URI: http://www.pexels.com/photo/fashion-person-woman-summer-3654/
+- Copyright http://www.pexels.com - http://www.pexels.com/photo-license/
+- License: Creative Commons Zero (CC0) https://creativecommons.org/publicdomain/zero/1.0/
